@@ -1,0 +1,79 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(39, 39, 39);
+    margin: 0rem;
+    overflow:hidden;
+}
+
+#image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
+#image-track{
+    display: flex;
+    gap: 4vmin;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(0%,-50%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Aven";
+} 
+
+nav {
+    position:fixed;
+    background-color: rgb(212, 213, 214);
+    width: 100%;
+    padding: 0 20px;
+    z-index: 12;
+
+}
+
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu .logo a{
+    text-decoration: none;
+    color: #1d1c1c;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu ul {
+    display: inline-flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 7px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #1d1c1c;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background: #fff;
+    color: #000;
+}
