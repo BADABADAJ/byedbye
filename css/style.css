@@ -144,7 +144,15 @@ img {
 }
 
 /*about*/
-
+.background-image{
+    background-image: url("../images/27.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
 
 
 /*6 types*/
