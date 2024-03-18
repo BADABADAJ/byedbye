@@ -9,7 +9,7 @@ nav {
     position:fixed;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 40px;
+    height: 35px;
     padding: 0 20px;
     z-index: 12;
 
@@ -144,6 +144,8 @@ img {
 }
 
 /*about*/
+
+
 
 /*6 types*/
 .container-6 {
