@@ -197,6 +197,22 @@ nav .menu {
     text-align: justify;
 }
 
+.half-text-3{
+    position: relative;
+    top: -310px;
+    bottom: -200px;
+    margin-bottom: -300px;
+}
+
+.container-half{
+    text-align: justify;
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin: 420px;
+    word-wrap: normal;
+    height: 0px;
+}
+
 
 
 
